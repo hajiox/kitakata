@@ -9,6 +9,21 @@ import Link from "next/link"
 export default function KitakataLP() {
   const [currentReviews, setCurrentReviews] = useState<any[]>([])
 
+  const handleMallClick = (mall: string) => {
+    if (typeof window !== 'undefined') {
+      if ((window as any).fbq) {
+        (window as any).fbq('trackCustom', 'MallClick', { product: 'kitakata' })
+      }
+      if ((window as any).gtag) {
+        (window as any).gtag('event', 'click_purchase', {
+          event_category: 'ecommerce',
+          event_label: mall,
+          currency: 'JPY'
+        })
+      }
+    }
+  }
+
   const reviews = [
     {
       source: "楽天",
@@ -439,6 +454,7 @@ export default function KitakataLP() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
+                onClick={() => handleMallClick('yahoo')}
               >
                 <div className="bg-white p-4 mx-auto max-w-[200px] aspect-square flex flex-col items-center justify-center rounded-lg border-2 border-gray-200 hover:shadow-lg transition-shadow mb-4">
                   <Image
@@ -461,6 +477,7 @@ export default function KitakataLP() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
+                onClick={() => handleMallClick('rakuten')}
               >
                 <div className="bg-white p-4 mx-auto max-w-[200px] aspect-square flex flex-col items-center justify-center rounded-lg border-2 border-gray-200 hover:shadow-lg transition-shadow mb-4">
                   <Image
@@ -483,6 +500,7 @@ export default function KitakataLP() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
+                onClick={() => handleMallClick('amazon')}
               >
                 <div className="bg-white p-4 mx-auto max-w-[200px] aspect-square flex flex-col items-center justify-center rounded-lg border-2 border-gray-200 hover:shadow-lg transition-shadow mb-4">
                   <Image
