@@ -123,7 +123,7 @@ export default function KitakataLP() {
       title: "チャーシュー2枚付きパーフェクトラーメン喜多方",
       subtitle: "1食",
       description: "チャーシュー付きで満足度大",
-      price: "700円（税込）送料別途",
+      price: "730円（税込）送料別途",
       note: "2個まで全国一律300円",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E6%A5%BD%E5%A4%A9%E4%BB%96TOP%E7%94%BB%E5%83%8F%EF%BC%88%E5%96%9C%E5%A4%9A%E6%96%B9%EF%BC%89-01.jpg-HQR2R1EBF7JFbmqzPppogqEzLib3vd.jpeg",
