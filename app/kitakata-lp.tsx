@@ -105,7 +105,7 @@ export default function KitakataLP() {
       title: "パーフェクトラーメン喜多方【S】3食セット",
       subtitle: "麺とスープ",
       description: "先ずはお試しにどうぞ",
-      price: "1,250円（税・送料込）",
+      price: "1,299円（税・送料込）",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E6%A5%BD%E5%A4%A9%E4%BB%96TOP%EF%BC%88%E6%96%B0%E5%9E%8B%EF%BC%89-01.jpg-KDVZBOhIPWjyjEFqIQeusu4W7mqife.jpeg",
     },

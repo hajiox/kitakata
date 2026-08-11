@@ -4,7 +4,7 @@ import KitakataLP from "./kitakata-lp"
 export const metadata: Metadata = {
   title: "パーフェクトラーメン喜多方｜本格煮干し醤油ラーメン通販【会津ブランド館】送料無料",
   description:
-    "老舗醤油と煮干しが香る本格喜多方ラーメン。80ccの完全再現スープと五十嵐製麺の多加水ちぢれ麺で、まるで店で食べるような骨太スープの再現度。3食セット1,250円から送料無料でお届け。",
+    "老舗醤油と煮干しが香る本格喜多方ラーメン。80ccの完全再現スープと五十嵐製麺の多加水ちぢれ麺で、まるで店で食べるような骨太スープの再現度。3食セット1,299円から送料無料でお届け。",
   keywords:
     "喜多方ラーメン,煮干しラーメン,醤油ラーメン,本格ラーメン,通販,お取り寄せ,送料無料,会津ブランド館,星醸造,五十嵐製麺,多加水麺,完全再現スープ,福島県,日本三大ラーメン,朝ラー",
   authors: [{ name: "会津ブランド館" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "パーフェクトラーメン喜多方｜老舗の醤油、煮干しが香る本格ラーメン",
     description:
-      "まるで店で食べるような骨太スープの再現度。老舗星醸造の醤油と国産煮干しを使用した本格喜多方ラーメンを送料無料でお届け。3食セット1,250円から。",
+      "まるで店で食べるような骨太スープの再現度。老舗星醸造の醤油と国産煮干しを使用した本格喜多方ラーメンを送料無料でお届け。3食セット1,299円から。",
     url: "https://your-domain.com/kitakata-ramen",
     siteName: "会津ブランド館",
     images: [
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   category: "food",
   classification: "ラーメン通販",
   other: {
-    "product:price:amount": "1250",
+    "product:price:amount": "1299",
     "product:price:currency": "JPY",
     "product:availability": "in stock",
     "product:condition": "new",
