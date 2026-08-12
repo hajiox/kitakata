@@ -10,7 +10,7 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://kitakata.aizubrandhall-lp2.com"),
   title: {
     default: "会津ブランド館｜福島県会津の特産品・グルメ通販",
     template: "%s | 会津ブランド館",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   applicationName: "会津ブランド館",
   referrer: "origin-when-cross-origin",
   keywords: ["会津", "福島", "特産品", "グルメ", "通販", "喜多方ラーメン"],
-  authors: [{ name: "会津ブランド館", url: "https://your-domain.com" }],
+  authors: [{ name: "会津ブランド館", url: "https://kitakata.aizubrandhall-lp2.com" }],
   creator: "会津ブランド館",
   publisher: "会津ブランド館",
   formatDetection: {
@@ -49,7 +49,6 @@ export default function RootLayout({
       `,
           }}
         />
-        <link rel="canonical" href="https://your-domain.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <style>{`

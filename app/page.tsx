@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "パーフェクトラーメン喜多方｜老舗の醤油、煮干しが香る本格ラーメン",
     description:
       "まるで店で食べるような骨太スープの再現度。老舗星醸造の醤油と国産煮干しを使用した本格喜多方ラーメンを送料無料でお届け。3食セット1,299円から。",
-    url: "https://your-domain.com/kitakata-ramen",
+    url: "https://kitakata.aizubrandhall-lp2.com",
     siteName: "会津ブランド館",
     images: [
       {
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://your-domain.com/kitakata-ramen",
+    canonical: "https://kitakata.aizubrandhall-lp2.com",
   },
   category: "food",
   classification: "ラーメン通販",
