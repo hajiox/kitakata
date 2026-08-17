@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/OGP_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9C%E3%83%BC%E3%83%89%201.jpg-2peBBxNdwAnlrOIL6XLIycSSIuHTek.jpeg",
-        width: 1200,
-        height: 630,
+        width: 1217,
+        height: 647,
         alt: "パーフェクトラーメン喜多方 - 老舗醤油と煮干しの本格ラーメン。透明感のある醤油スープに多加水ちぢれ麺、チャーシュー、メンマ、ネギ、海苔、半熟卵をトッピング",
         type: "image/jpeg",
       },
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
       {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/OGP_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9C%E3%83%BC%E3%83%89%201.jpg-2peBBxNdwAnlrOIL6XLIycSSIuHTek.jpeg",
         alt: "パーフェクトラーメン喜多方 - 本格煮干し醤油ラーメン",
-        width: 1200,
-        height: 630,
+        width: 1217,
+        height: 647,
       },
     ],
   },
